@@ -17,6 +17,24 @@
 
 ## streamlit 대시보드 개발
 - sqlite3와 연결
+    - 코드
+    ```bash
+    @st.cache_data
+    def load_data():
+        conn = sqlite3.connect('classicmodels.sqlite')
+        cursor = conn.cursor()
+        cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
+        tables = cursor.fetchall()
+        
+        data = {}
+        for table in tables:
+            table_name = table[0]
+            query = f"SELECT * FROM {table_name}"
+            data[table_name] = pd.read_sql_query(query, conn)
+        
+        conn.close()
+        return data
+    ```
 
 ## 대시보드 디자인
 - 테스트 완료 후
@@ -29,6 +47,7 @@
 
 ### 배포 deploy, streamlit 웹사이트
 - streamlit 으로 배포
+![Image](https://github.com/user-attachments/assets/14a7f23c-c68c-4d39-a351-059ffebd70e6)
     - 배포 링크 : <https://newlgu6p-2fytzw9wwthe2yvu2e4slf.streamlit.app/>
 - README.md 페이지 구성
     + README.md 페이지 구성
