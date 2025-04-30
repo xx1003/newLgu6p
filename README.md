@@ -5,14 +5,14 @@
 - 참고 링크 : <https://techouse.github.io/mysql-to-sqlite3/>
     - mysql to sqlite 라이브러리 설치
         - 코드
-        '''bash
+        ```bash
         pip install mysql-to-sqlite3
-        '''
+        ```
     - mysql에서 데이터베이스 sqlite로 가져오기
         - 코드
-        '''bash
+        ```bash
         mysql2sqlite -f classicmodels sqlite -d classicmodels -u root -p
-        '''
+        ```
     - database에서 sqlite 연결하기
 
 ### streamlit 대시보드 개발
