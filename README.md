@@ -22,6 +22,10 @@
 - 테스트 완료 후
     1. 데이터베이스를 데이터프레임 형태로 출력
     2. 그래프로 시각화
+![Image](https://github.com/user-attachments/assets/4e0eddb3-9612-47fd-b534-9fc72954f663)
+![Image](https://github.com/user-attachments/assets/c88035cf-c871-4c1e-8529-4f9b3b00a119)
+![Image](https://github.com/user-attachments/assets/b4b8073d-5800-48e9-8e55-8e5fd9462627)
+![Image](https://github.com/user-attachments/assets/dee7aee9-2811-413d-9d02-bb6e2d2afc1b)
 
 ### 배포 deploy, streamlit 웹사이트
 
