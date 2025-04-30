@@ -2,7 +2,7 @@
 -------------------------------------
 ## mysql to sqlite
 - sqlite3 생성 후, classicmodels 쿼리 추가 하는 방법
-- 참고 링크 : <https://techouse.github.io/mysql-to-sqlite3/>
+    - 참고 링크 : <https://techouse.github.io/mysql-to-sqlite3/>
     - mysql to sqlite 라이브러리 설치
         - 코드
         ```bash
@@ -15,10 +15,10 @@
         ```
     - database에서 sqlite 연결하기
 
-### streamlit 대시보드 개발
+## streamlit 대시보드 개발
 - sqlite3와 연결
 
-### 대시보드 디자인
+## 대시보드 디자인
 - 테스트 완료 후
     1. 데이터베이스를 데이터프레임 형태로 출력
     2. 그래프로 시각화
@@ -28,7 +28,12 @@
 ![Image](https://github.com/user-attachments/assets/dee7aee9-2811-413d-9d02-bb6e2d2afc1b)
 
 ### 배포 deploy, streamlit 웹사이트
-
+- streamlit 으로 배포
+    - 배포 링크 : <https://newlgu6p-2fytzw9wwthe2yvu2e4slf.streamlit.app/>
 - README.md 페이지 구성
     + README.md 페이지 구성
         * 마크다운 문법 
+            1. 링크 첨부 : <>
+            2. 이미지 첨부 : using github issues 
+            3. 제목 : #, ##, ###
+            4. 번호 X 문단 : -, +, *
