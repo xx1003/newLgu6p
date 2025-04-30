@@ -172,3 +172,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+
+mysql_crud.ipynb
+deploy.sh
