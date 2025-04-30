@@ -1,4 +1,4 @@
-# newLgu6p : 
+# newLgu6p : mini streamlit project
 -------------------------------------
 ## mysql to sqlite
 - sqlite3 생성 후, classicmodels 쿼리 추가 하는 방법
